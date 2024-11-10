@@ -31,11 +31,11 @@ Our solution consists of
 
 ## How to run model :running:
 
-installing the necessary libraries
+*Installing the necessary libraries*
 ```
 !pip install -r ./requirements.txt
 ```
-Load environmental modules
+*Load environmental modules*
 ```
 import dotenv
 
@@ -47,7 +47,7 @@ from src.submission.crews.advanced_PIRLS_crew_rag_gdp import AdvancedPIRLSCrew
 
 dotenv.load_dotenv()
 ```
-Set up Large language model and Crew of Agents
+*Set up Large language model and Crew of Agents*
 ```
 llm = ChatBedrockWrapper(
         model_id="anthropic.claude-3-5-sonnet-20240620-v1:0",
@@ -56,20 +56,20 @@ llm = ChatBedrockWrapper(
     )
 crew = AdvancedPIRLSCrew(llm=llm)
 ```
-Asking LLM model
+*Asking LLM model*
 ```
 %%time
 query = "Which country had a reading score closest to 547 for fourth-grade students in the PIRLS 2021 study?"
 answer = crew.run(query)
 ```
-Showing result
+*Showing result*
 ```
 # allows displaying the proper formats
 from IPython.display import display, Markdown
 display(Markdown(answer))
 ```
 
-Note: Running those examples requires setting up credentials to Amazon Bedrock and S3 bucket used by the team
+*Note: Running those examples requires setting up credentials to Amazon Bedrock and S3 bucket used by the team*
 
 All above code you can reach in Usage_Examples.ipynb and execute cells to test a model.
 
