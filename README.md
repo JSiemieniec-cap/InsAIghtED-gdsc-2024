@@ -120,6 +120,6 @@ All above code you can reach in Usage_Examples.ipynb and execute cells to test a
 #### `tests/tests.ipynb`
 - **Description**: Unit tests verifying the functionality of agents.
 
-## How to Test Main Functionality
+## How to Test Main Functionality :computer:
 In the 'tests' folder, you can find a notebook containing all the tests, which will verify the main functions of the model and variable types.
 
