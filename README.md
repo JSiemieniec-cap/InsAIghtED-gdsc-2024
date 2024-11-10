@@ -1,21 +1,21 @@
-# Team insAIghtED solution repo
+# Team InsAIghtED solution repo :blue_book:
 
 ![Banner](http://gdsc-bucket-058264313357.s3.amazonaws.com/insighted_banner_team.png)
 
-## Table of content:
-1. [Solution idea](#solution-idea)
+## Table of contents:
+1. [Solution Concept](#solution-concept)
 2. [Details of the solution](#details-of-the-solution)
 3. [How to run model](#how-to-run-model)
 4. [Repo structure](#repo-structure)
 
-## Solution Idea
-Our solution is a combination of multi-agent system postrprocessed by LLM chains with addition of human preprocessed inputs.
+## Solution Concept
+Our solution is a combination of multi-agent system post-processed by LLM chains with addition of human preprocessed inputs.
 
 Also we enforce the well structured output of an answer:
 1. **Short answer** is the most important part. It should answer the question in one sentence. For all those users who are not interested in reading the whole "essays" this should suffice.
-2. **Data Visualization** which presents the data in appropriate chart, sometimes adding the context to the result e.g. if you ask about 
-3. **Details** is complex and more detail answer to the given question. It provides explanation how model deducted to such conclusion provides data and insights of deduction. It also show more information related to topic and shows it in good looking style.
-4. **Fun Section** - although it might be considered as not serious, we strongly believe it's a crucial part of the solution which goal is to highlight the necessity to make fourth-grader enjoy their reading activities. 
+2. **Data Visualization** which presents the data in appropriate chart, sometimes adding the context to the result. 
+3. **Details** section is a complex and more detailed answer to the given question. It provides explanation how model came to such conclusion providing data and insights. It also shows more information related to topic and shows it in good looking style.
+4. **Fun Section** - although it might be considered as not serious, we strongly believe it's a crucial part of the solution which goal is to highlight the necessity to make fourth-grader enjoy their reading activities. :smiley:
 
 ## Details of the solution
 Our solution consists of 
@@ -29,19 +29,11 @@ Our solution consists of
     - Data Scientist
 4. **Postprocessing chains** - to capture all information and represents it in scheduled structure
 
-
 ## How to run model
 
 installing the necessary libraries
 ```
 !pip install -r ./requirements.txt
-```
-Creating a model
-```
-from langchain_aws import ChatBedrock
-MODEL_ID = "anthropic.claude-3-5-sonnet-20240620-v1:0"
-# Initialize the ChatBedrock instance
-llm = ChatBedrock(model_id=MODEL_ID, model_kwargs={'temperature': 0})
 ```
 Load environmental modules
 ```
@@ -58,7 +50,7 @@ dotenv.load_dotenv()
 Set up Large language model and Crew of Agents
 ```
 llm = ChatBedrockWrapper(
-        model_id="anthropic.claude-3-5-sonnet-20240620-v1:0",#"anthropic.claude-3-5-sonnet-20240620-v1:0",#'anthropic.claude-3-haiku-20240307-v1:0',
+        model_id="anthropic.claude-3-5-sonnet-20240620-v1:0",
         model_kwargs={'temperature': 0, 'max_tokens': 200000},
         call_id=12321
     )
