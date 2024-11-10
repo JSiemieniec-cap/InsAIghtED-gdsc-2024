@@ -95,8 +95,6 @@ All above code you can reach in Usage_Examples.ipynb and execute cells to test a
 ├── requirements.txt
 └── Usage_Examples.ipynb
 ```
-#### `rag`
-- **Description**: Folder containing files implementing algorithms using Retrieval-Augmented Generation (RAG). It is used to assist the model in the process of generating answers to questions, relying on external data sources.
 
 #### `src/submission/config/agents_rag_gdp.yaml`
 - **Description**: YAML file configuring how agents in CrewAI should behave
@@ -118,6 +116,9 @@ All above code you can reach in Usage_Examples.ipynb and execute cells to test a
 
 #### `Usage_Examples.ipynb`
 - **Description**: Jupyter Notebook containing examples of how to use the model. It documents how to run queries, present results, and test the model's performance. It may also contain additional comments and instructions related to the use of the system.
+
+#### `tests/tests.ipynb`
+- **Description**: Unit tests verifying the functionality of agents.
 
 ## How to Test Main Functionality
 In the 'tests' folder, you can find a notebook containing all the tests, which will verify the main functions of the model and variable types.
