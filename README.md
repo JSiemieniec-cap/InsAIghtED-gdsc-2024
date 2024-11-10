@@ -7,6 +7,7 @@
 2. [Details of the solution :page_with_curl:](#details-of-the-solution-page_with_curl)
 3. [How to run model :running:](#how-to-run-model-running)
 4. [Repo structure :construction_worker:](#repo-structure-construction_worker)
+5. [How to Test Main Functionality :computer:](#how-to-test-main-functionality-computer)
 
 ## Solution Concept :mag_right:
 Our solution is a combination of multi-agent system post-processed by LLM chains with addition of human preprocessed inputs.
