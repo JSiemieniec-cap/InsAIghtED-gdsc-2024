@@ -91,6 +91,9 @@ All above code you can reach in Usage_Examples.ipynb and execute cells to test a
         └── create_submission.py
 ├── tests
     └── tests.ipynb
+├── external sources
+    ├── External_data_preparation.ipynb
+    └── RAG.ipynb
 ├── readme.md
 ├── requirements.txt
 └── Usage_Examples.ipynb
@@ -119,6 +122,12 @@ All above code you can reach in Usage_Examples.ipynb and execute cells to test a
 
 #### `tests/tests.ipynb`
 - **Description**: Unit tests verifying the functionality of agents.
+
+#### `external sources/External_data_preparation.ipynb`
+- **Description**: This notebook shows the process of preparation of the external data from Unesco: GDP per capita, total population and life expectancy. Everything results in calculation of the correlation coefficients with Overal PIRLS 2021 results per country and preparation of appropriate plots.
+
+#### `texternal sources/RAG.ipynb`
+- **Description**: File creates a vector database with additional information using data from the S3 bucket.
 
 ## How to Test Main Functionality :computer:
 In the 'tests' folder, you can find a notebook containing all the tests, which will verify the main functions of the model and variable types.
