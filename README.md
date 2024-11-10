@@ -121,5 +121,5 @@ All above code you can reach in Usage_Examples.ipynb and execute cells to test a
 - **Description**: Jupyter Notebook containing examples of how to use the model. It documents how to run queries, present results, and test the model's performance. It may also contain additional comments and instructions related to the use of the system.
 
 ## How to Test Main Functionality
---- 
 In the 'tests' folder, you can find a notebook containing all the tests, which will verify the main functions of the model and data types.
+
