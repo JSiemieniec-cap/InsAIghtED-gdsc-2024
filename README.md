@@ -2,13 +2,13 @@
 
 ![Banner](http://gdsc-bucket-058264313357.s3.amazonaws.com/insighted_banner_team.png)
 
-## Table of contents:
-1. [Solution Concept](#solution-concept)
-2. [Details of the solution](#details-of-the-solution)
-3. [How to run model](#how-to-run-model)
-4. [Repo structure](#repo-structure)
+## Table of contents: :point_down:
+1. [Solution Concept :mag_right:](#solution-concept-mag_right)
+2. [Details of the solution :page_with_curl:](#details-of-the-solution-page_with_curl)
+3. [How to run model :running:](#how-to-run-model-running)
+4. [Repo structure :construction_worker:](#repo-structure-construction_worker)
 
-## Solution Concept
+## Solution Concept :mag_right:
 Our solution is a combination of multi-agent system post-processed by LLM chains with addition of human preprocessed inputs.
 
 Also we enforce the well structured output of an answer:
@@ -17,7 +17,7 @@ Also we enforce the well structured output of an answer:
 3. **Details** section is a complex and more detailed answer to the given question. It provides explanation how model came to such conclusion providing data and insights. It also shows more information related to topic and shows it in good looking style.
 4. **Fun Section** - although it might be considered as not serious, we strongly believe it's a crucial part of the solution which goal is to highlight the necessity to make fourth-grader enjoy their reading activities. :smiley:
 
-## Details of the solution
+## Details of the solution :page_with_curl:
 Our solution consists of 
 1. **Human-preprocessed data and insights** - to process and extract essential information from PIRLS database
 2. **RAG (Retrieval-Augmented Generation)** - to add external sources to make answer more extented
@@ -29,7 +29,7 @@ Our solution consists of
     - Data Scientist
 4. **Postprocessing chains** - to capture all information and represents it in scheduled structure
 
-## How to run model
+## How to run model :running:
 
 installing the necessary libraries
 ```
@@ -73,7 +73,7 @@ Note: Running those examples requires setting up credentials to Amazon Bedrock a
 
 All above code you can reach in Usage_Examples.ipynb and execute cells to test a model.
 
-## Repo structure
+## Repo structure :construction_worker:
 
 ```
 ├── src
