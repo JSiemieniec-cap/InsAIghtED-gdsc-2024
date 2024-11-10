@@ -12,9 +12,9 @@
 Our solution is a combination of multi-agent system post-processed by LLM chains with addition of human preprocessed inputs.
 
 Also we enforce the well structured output of an answer:
-1. **Short answer** is the most important part. It should answer the question in one sentence. For all those users who are not interested in reading the whole "essays" this should suffice.
-2. **Data Visualization** which presents the data in appropriate chart, sometimes adding the context to the result. 
-3. **Details** section is a complex and more detailed answer to the given question. It provides explanation how model came to such conclusion providing data and insights. It also shows more information related to topic and shows it in good looking style.
+1. **Short answer** is the most important part. It should answer the question in one sentence. For all those users who are not interested in reading the whole "essays" this should suffice. :page_facing_up:
+2. **Data Visualization** which presents the data in appropriate chart, sometimes adding the context to the result. :bar_chart:
+3. **Details** section is a complex and more detailed answer to the given question. It provides explanation how model came to such conclusion providing data and insights. It also shows more information related to topic and shows it in good looking style. :clipboard:
 4. **Fun Section** - although it might be considered as not serious, we strongly believe it's a crucial part of the solution which goal is to highlight the necessity to make fourth-grader enjoy their reading activities. :smiley:
 
 ## Details of the solution :page_with_curl:
@@ -27,7 +27,7 @@ Our solution consists of
     - Data Engineer
     - Chart Preparer
     - Data Scientist
-4. **Postprocessing chains** - to capture all information and represents it in scheduled structure
+4. **Post-processing chains** - to capture all information and represent in desired structure
 
 ## How to run model :running:
 
