@@ -76,7 +76,6 @@ All above code you can reach in Usage_Examples.ipynb and execute cells to test a
 ## Repo structure
 
 ```
-├── rag
 ├── src
     ├── static
     └── submission
