@@ -1,4 +1,4 @@
-# Team InsAIghtED solution repo :blue_book:
+# Team InsAIghtED solution repo for GDSC 7 :blue_book:
 
 ![Banner](http://gdsc-bucket-058264313357.s3.amazonaws.com/insighted_banner_team.png)
 
@@ -94,7 +94,8 @@ All above code you can reach in Usage_Examples.ipynb and execute cells to test a
     └── tests.ipynb
 ├── external sources
     ├── External_data_preparation.ipynb
-    └── RAG.ipynb
+    ├── RAG.ipynb
+    └── Whisper_Youtube.ipynb
 ├── readme.md
 ├── requirements.txt
 └── Usage_Examples.ipynb
@@ -129,6 +130,9 @@ All above code you can reach in Usage_Examples.ipynb and execute cells to test a
 
 #### `external sources/RAG.ipynb`
 - **Description**: File creates a vector database with additional information using data from the S3 bucket.
+
+#### `external sources/Whisper_Youtube.ipynb`
+- **Description**: Script enables downloading a transcription from informative YouTube videos
 
 ## How to Test Main Functionality :computer:
 In the 'tests' folder, you can find a notebook containing all the tests, which will verify the main functions of the model and variable types.
