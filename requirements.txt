@@ -15,3 +15,4 @@ duckduckgo-search==6.3.2
 chromadb==0.4.24
 matplotlib==3.9.2
 numpy==1.26.4
+boto3==1.35.57
